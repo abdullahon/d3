@@ -1,0 +1,222 @@
+
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+[class^=col-]{
+    padding: 0;
+}
+
+.table-wrapper{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*TOP*/
+#top{
+    height: 101px;
+    background: url("../img/top.png") no-repeat top center #fff;
+}
+
+/*HEADER*/
+
+#header{
+    height: 80px;
+    background: #272E64;
+    text-align: center;
+}
+#logo{
+    display: inline-block;
+    line-height: 80px;
+}
+#logo img{
+    height: 35px;
+}
+.container{
+    width: 1170px !important;
+}
+
+#main-content{
+    margin-bottom: 75px;
+}
+
+
+/*POINT*/
+.point{
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #636466;
+    border-radius: 40px;
+}
+.point.low{
+    width: 15px;
+    height: 15px;
+}
+.point.medium{
+    width: 20px;
+    height: 20px;
+}
+.point.high{
+    width: 30px;
+    height: 30px;
+}
+.point.poor{
+    background-color: #EE3824;
+    border-color: #EE3824;
+}
+.point.weak{
+    background-color: #E4832D;
+    border-color: #E4832D;
+}
+.point.parity{
+    background-color: #FFE113;
+    border-color: #FFE113;
+}
+.point.good{
+    background-color: #25B24B;
+    border-color: #25B24B;
+}
+
+/*POINT GUIDE*/
+#point-guide ul:before,#point-guide ul:after{
+    content: "";
+    display: table;
+}
+#point-guide ul:after{
+    clear: both;
+}
+#point-guide ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#point-guide ul li{
+    float: left;
+}
+#point-guide{
+    font-size: 12px;
+}
+
+/*JOURNEY SECTION*/
+.js-main-title{
+    font-size: 26px;
+    position: absolute;
+    color: #272E64;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    height: 70px;
+    line-height: 60px;
+    border-left: 1px solid #EAEAE6;
+    left: -105px;
+    bottom: 105px;
+    padding-left: 20px;
+}
+.js-main-title span{
+    font-size: 36px;
+    color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.js-sub-title{
+    padding-left: 70px;
+    font-size: 16px;
+    background-color: #DBDBDB;
+    position: relative;
+}
+.js-sub-title ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.js-sub-title li{
+    background-color: #F3F3F4;
+    height: 180px;
+    padding: 40px 0 0 30px;
+    border-bottom: 1px solid #EAEAE6;
+}
+#js-points-wrapper{
+    background-color: #F1F9FB;
+}
+.js-points{
+    width: 100%;
+    height: 180px;
+    padding: 0 0 0 56px;
+    border-bottom: 1px solid #EAEAE6;
+    position: relative;
+}
+.js-points img{
+    position: absolute;
+    left: 40px;
+    top: 0;
+}
+.js-points ul{
+    list-style: none;
+    padding: 1px 0 0 55px;
+    margin: 0;
+}
+.js-points a{
+    display: block;
+    color: #272E64;
+    padding: 5px 0 5px 10px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.js-points a.active{
+    background-color: #F3F3F4;
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color: #DBDBDB;
+    position: relative;
+    z-index: 10;
+    margin-right: -1px;
+}
+#footer{
+    height: 276px;
+    background: url("../img/footer.png") no-repeat top center;
+}
+#bottom{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    padding: 40px 0;
+}
+.chart{
+    background-color: #f3f3f4;
+    padding: 20px;
+    display: none;
+    border: 1px solid #DBDBDB;
+    margin-top: 20px;
+}
+#chartTwo{
+    margin-top: 100px;
+}
+#chartThree{
+    margin-top: 670px;
+}
+#chartFour{
+    margin-top: 1200px;
+}
+#login-form{
+    padding: 120px 0 50px 0;
+    width: 310px;
+    margin: 0 auto;
+}
+.form-control{
+    border-radius: 0;
+    height: 50px;
+    font-style: italic;
+}
+.btn{
+    padding: 15px 12px;
+    border-radius: 0;
+}
